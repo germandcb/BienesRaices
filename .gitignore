@@ -1,0 +1,5 @@
+/build
+/workBenchk
+/node_modules
+/imagenes
+.package-lock.json
