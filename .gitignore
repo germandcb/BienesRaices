@@ -2,4 +2,9 @@
 /workBenchk
 /node_modules
 /imagenes
-.package-lock.json
+/vendor
+package-lock.json
+pruebas.tisaiti.php
+composer.lock
+
+

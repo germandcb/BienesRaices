@@ -1,6 +1,6 @@
 <?php 
+    require 'includes/app.php';
     // Accedemos a la base de datos
-    require 'includes/config/database.php';
     $db = conectarDB();
 
     $errores = [];
@@ -55,7 +55,6 @@
     }
 
     // Incluye el header
-    require 'includes/funciones.php';
     inculirTemplate('header');
     
 ?>

@@ -1,7 +1,7 @@
 <?php 
     declare(strict_types = 1);
     
-    require 'includes/funciones.php';
+    require 'includes/app.php';
     inculirTemplate('header', $inicio = true);
     
 ?>
@@ -32,8 +32,7 @@
     <section class="seccion contenedor">
         <h2>Casas y Departamentos en Venta</h2>
 
-        <?php
-            $limite = 3;    
+        <?php  
             include 'includes/templates/anuncios.php' 
         ?>
 
